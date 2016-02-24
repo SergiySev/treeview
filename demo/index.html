@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tree View Task</title>
+
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="../dist/treeview.css">
+</head>
+
+<body>
+
+<div id="tree" class="treeview left"></div>
+
+<div class="editor left">
+    <div>
+        <button type="button" id="saveBtn" onclick="saveData()">Save Data from Tree to LocalStorage</button>
+        <button type="button" id="readBtn" onclick="readData()">Read Data from LocalStorage</button>
+        <p></p>
+        <button type="button" id="areaBtn" onclick="applyData()">Read Data from TextArea</button>
+        <button type="button" id="dummyBtn" onclick="generateData()">Dummy Data</button>
+    </div>
+    <br/>
+    <textarea rows="40" cols="60" wrap="off" id="kode"></textarea>
+</div>
+
+</body>
+
+<script src="../dist/treeview.js"></script>
+<script src="js/saver.js"></script>
+<script src="js/demo.js"></script>
+
+</html>

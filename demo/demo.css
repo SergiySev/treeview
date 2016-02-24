@@ -1,0 +1,55 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    background-color: #373737;
+    font-size: 0.85em;
+}
+
+body {
+    color: #FFFFFF;
+    font-family: Verdana;
+}
+
+.treeview {
+    width: 200px;
+}
+
+.left {
+    float: left;
+}
+
+.editor {
+    padding-left: 30px;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 5px 10px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #fff;
+    background-color: #325564;
+    text-shadow: -1px 1px #417cb8;
+    border: none;
+}
+
+button:focus {
+    outline: none
+}
+
+button:hover,
+button.hover {
+    background-color: #346392;
+    text-shadow: -1px 1px #27496d;
+}
+
+button:active,
+button.active {
+    background-color: #27496d;
+    text-shadow: -1px 1px #193047;
+}
+
+textarea {
+    background-color : #d1d1d1;
+}

@@ -1,0 +1,47 @@
+[
+  {"name": "A1"},
+  {
+    "name": "A2",
+    "children": [
+      {"name": "B1"}
+    ]
+  },
+  {
+    "name": "A3",
+    "children": [
+      {
+        "name": "B2",
+        "children": [
+          {"name": "C1"},
+          {"name": "C2"},
+          {
+            "name": "C3",
+            "children": [
+              {"name": "D1"},
+              {"name": "D2"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B2",
+        "children": [
+          {"name": "C1"},
+          {"name": "C2"},
+          {
+            "name": "C3",
+            "children": [
+              {"name": "D1"},
+              {
+                "name": "D2", "children": [
+                {"name": "E1"},
+                {"name": "E2"}
+              ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
